@@ -1,0 +1,30 @@
+@import "./base.css";
+
+button{
+   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+   width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #E3E3E3;
+   border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: grey;
+   border-radius: 25px;
+   
+   background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.25) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.25) 50%,
+      rgba(255, 255, 255, 0.25) 75%,
+      transparent 75%,
+      transparent
+   );
+}
